@@ -17,3 +17,6 @@ __pycache__/
 # OS-specific
 .DS_Store
 Thumbs.db
+
+PRD_old.md
+README.md
