@@ -9,11 +9,18 @@
       "timeout": 10000,
       "trust": false
     },
-    "postman": {
+    // "postman": {
+    //   "command": "npx",
+    //   "args": ["-y", "@postman/postman-mcp-server"],
+    //   "env": {
+    //     "POSTMAN_API_KEY": "${POSTMAN_API_KEY}"
+    //   }
+    // },
+    "context7": {
       "command": "npx",
-      "args": ["-y", "@postman/postman-mcp-server"],
+      "args": ["-y", "@upstash/context7-mcp"],
       "env": {
-        "POSTMAN_API_KEY": "${POSTMAN_API_KEY}" 
+        "CONTEXT7_API_KEY": "${CONTEXT7_API_KEY}"
       }
     }
   },
